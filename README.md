@@ -37,7 +37,7 @@ angular-graphic/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AzureCosmosDB/angular-graphic.git
+   git clone https://github.com/sajeetharan/angular-graphic.git
    cd angular-graphic
    ```
 
@@ -215,7 +215,7 @@ If you have any questions or need help with deployment:
 ## 🚀 Live Demo
 
 Once deployed to GitHub Pages, your site will be available at:
-`https://azurecosmosdb.github.io/angular-graphic/`
+`https://sajeetharan.github.io/angular-graphic/`
 
 ---
 
