@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Angular through beautiful infographics - A comprehensive visual guide to Angular development">
+    <title>Angular Visual Storybook - Learn Angular Through Infographics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🅰️</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🅰️</span>
+                <h1>Angular Visual Storybook</h1>
+            </div>
+            <p class="tagline">Learn Angular Through Beautiful Infographics</p>
+        </div>
+    </header>
+
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>📚 Table of Contents</h2>
+            <button class="close-btn" id="closeSidebar">✕</button>
+        </div>
+        <ul class="nav-list" id="navList">
+            <li><a href="#overview" data-section="overview">📖 Overview</a></li>
+            <li><a href="#essentials" data-section="essentials">⚡ Essentials</a></li>
+            <li><a href="#installation" data-section="installation">💾 Installation</a></li>
+            <li><a href="#components" data-section="components">🧩 Components</a></li>
+            <li><a href="#templates" data-section="templates">📝 Templates</a></li>
+            <li><a href="#directives" data-section="directives">🎯 Directives</a></li>
+            <li><a href="#dependency-injection" data-section="dependency-injection">💉 Dependency Injection</a></li>
+            <li><a href="#signals" data-section="signals">📡 Signals</a></li>
+            <li><a href="#routing" data-section="routing">🗺️ Routing</a></li>
+            <li><a href="#forms" data-section="forms">📋 Forms</a></li>
+            <li><a href="#http" data-section="http">🌐 HTTP</a></li>
+            <li><a href="#testing" data-section="testing">🧪 Testing</a></li>
+            <li><a href="#animations" data-section="animations">🎬 Animations</a></li>
+            <li><a href="#accessibility" data-section="accessibility">♿ Accessibility</a></li>
+            <li><a href="#performance-optimization" data-section="performance-optimization">⚡ Performance Optimization</a></li>
+            <li><a href="#security" data-section="security">🔒 Security</a></li>
+            <li><a href="#server-side-rendering" data-section="server-side-rendering">🖥️ Server-Side Rendering</a></li>
+            <li><a href="#cli" data-section="cli">⌨️ CLI</a></li>
+            <li><a href="#dev-tools" data-section="dev-tools">🛠️ Dev Tools</a></li>
+            <li><a href="#language-service" data-section="language-service">💬 Language Service</a></li>
+            <li><a href="#style-guide" data-section="style-guide">📐 Style Guide</a></li>
+            <li><a href="#libraries" data-section="libraries">📦 Libraries</a></li>
+            <li><a href="#drag-drop" data-section="drag-drop">🖱️ Drag & Drop</a></li>
+            <li><a href="#internalization" data-section="internalization">🌍 Internationalization</a></li>
+            <li><a href="#ai" data-section="ai">🤖 AI</a></li>
+            <li><a href="#keeping-upto-date" data-section="keeping-upto-date">🔄 Keeping Up to Date</a></li>
+        </ul>
+    </nav>
+
+    <!-- Toggle Button -->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <h2>Welcome to the Angular Visual Journey! 🚀</h2>
+                <p>Explore Angular concepts through carefully crafted infographics. Each topic is designed to help you understand Angular's powerful features visually.</p>
+                <div class="info-box">
+                    <p>💡 <strong>Tip:</strong> Click on any topic from the sidebar to jump to that section. Images are protected from downloading to preserve content integrity.</p>
+                </div>
+            </section>
+
+            <!-- Content Sections -->
+            <div id="content">
+                <!-- Overview -->
+                <section id="overview" class="content-section">
+                    <div class="section-header">
+                        <h2>📖 Angular Overview</h2>
+                        <span class="section-badge">Getting Started</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular is a powerful web application framework developed and maintained by Google. It provides a comprehensive solution for building dynamic, modern web applications with TypeScript.</p>
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>🎯 <strong>Component-Based Architecture:</strong> Build encapsulated components that manage their own state</li>
+                                <li>⚡ <strong>High Performance:</strong> Optimized change detection and rendering</li>
+                                <li>🔧 <strong>Rich Ecosystem:</strong> Comprehensive tooling and libraries</li>
+                                <li>📱 <strong>Cross-Platform:</strong> Build for web, mobile, and desktop</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="overview">
+                            <img src="angular_overview.jpg" alt="Angular Overview Infographic" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Essentials -->
+                <section id="essentials" class="content-section">
+                    <div class="section-header">
+                        <h2>⚡ Angular Essentials</h2>
+                        <span class="section-badge">Core Concepts</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Master the fundamental concepts that form the foundation of every Angular application. These essentials are crucial for building robust applications.</p>
+                            <h3>Essential Concepts:</h3>
+                            <ul>
+                                <li>🧩 <strong>Modules:</strong> Organize your application into cohesive blocks</li>
+                                <li>🎨 <strong>Templates:</strong> Define component views with HTML</li>
+                                <li>🔄 <strong>Data Binding:</strong> Synchronize data between component and view</li>
+                                <li>🎯 <strong>Services:</strong> Share data and logic across components</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="essentials">
+                            <img src="angular_essentials.jpg" alt="Angular Essentials Infographic" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Installation -->
+                <section id="installation" class="content-section">
+                    <div class="section-header">
+                        <h2>💾 Installation</h2>
+                        <span class="section-badge">Setup</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Getting started with Angular is straightforward. Follow these steps to set up your development environment and create your first Angular application.</p>
+                            <h3>Prerequisites:</h3>
+                            <ul>
+                                <li>📦 Node.js (LTS version recommended)</li>
+                                <li>💻 npm or yarn package manager</li>
+                                <li>🔧 Angular CLI for project scaffolding</li>
+                                <li>📝 Code editor (VS Code recommended)</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="installation">
+                            <img src="angular_installation.jpg" alt="Angular Installation Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Components -->
+                <section id="components" class="content-section">
+                    <div class="section-header">
+                        <h2>🧩 Components</h2>
+                        <span class="section-badge">Building Blocks</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Components are the fundamental building blocks of Angular applications. Each component controls a portion of the screen called a view.</p>
+                            <h3>Component Features:</h3>
+                            <ul>
+                                <li>🎨 <strong>Template:</strong> Defines the component's view</li>
+                                <li>💅 <strong>Styles:</strong> Component-specific CSS styling</li>
+                                <li>⚙️ <strong>Class:</strong> Contains the component logic</li>
+                                <li>🏷️ <strong>Metadata:</strong> Decorator that configures the component</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="components">
+                            <img src="angular_components.jpg" alt="Angular Components Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Templates -->
+                <section id="templates" class="content-section">
+                    <div class="section-header">
+                        <h2>📝 Templates</h2>
+                        <span class="section-badge">UI Definition</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Templates define the view of your Angular components using HTML enhanced with Angular's template syntax for dynamic content rendering.</p>
+                            <h3>Template Features:</h3>
+                            <ul>
+                                <li>🔗 <strong>Data Binding:</strong> Connect component data to the view</li>
+                                <li>🎯 <strong>Directives:</strong> Extend HTML with custom behavior</li>
+                                <li>🔄 <strong>Pipes:</strong> Transform displayed values</li>
+                                <li>📋 <strong>Template References:</strong> Access DOM elements</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="templates">
+                            <img src="angular_templates.jpg" alt="Angular Templates Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Directives -->
+                <section id="directives" class="content-section">
+                    <div class="section-header">
+                        <h2>🎯 Directives</h2>
+                        <span class="section-badge">DOM Manipulation</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Directives are classes that add additional behavior to elements in your Angular applications. They allow you to extend HTML's capabilities.</p>
+                            <h3>Types of Directives:</h3>
+                            <ul>
+                                <li>🧩 <strong>Component Directives:</strong> Directives with a template</li>
+                                <li>🔧 <strong>Structural Directives:</strong> Change DOM layout (ngIf, ngFor)</li>
+                                <li>🎨 <strong>Attribute Directives:</strong> Change appearance or behavior</li>
+                                <li>✨ <strong>Custom Directives:</strong> Build your own reusable directives</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="directives">
+                            <img src="angular_directives.jpg" alt="Angular Directives Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Dependency Injection -->
+                <section id="dependency-injection" class="content-section">
+                    <div class="section-header">
+                        <h2>💉 Dependency Injection</h2>
+                        <span class="section-badge">Design Pattern</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Dependency Injection (DI) is a design pattern and mechanism for creating and delivering parts of an application to other parts that require them.</p>
+                            <h3>DI Benefits:</h3>
+                            <ul>
+                                <li>🔌 <strong>Loose Coupling:</strong> Components are independent</li>
+                                <li>🧪 <strong>Testability:</strong> Easy to mock dependencies</li>
+                                <li>♻️ <strong>Reusability:</strong> Share services across components</li>
+                                <li>🎯 <strong>Maintainability:</strong> Centralized service management</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="dependency-injection">
+                            <img src="angular_dependency_injection.jpg" alt="Angular Dependency Injection Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Signals -->
+                <section id="signals" class="content-section">
+                    <div class="section-header">
+                        <h2>📡 Signals</h2>
+                        <span class="section-badge">Reactive Programming</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Signals are a new reactive primitive in Angular that provide fine-grained reactivity for better performance and developer experience.</p>
+                            <h3>Signal Advantages:</h3>
+                            <ul>
+                                <li>⚡ <strong>Performance:</strong> Fine-grained change detection</li>
+                                <li>📊 <strong>Simplicity:</strong> Easier state management</li>
+                                <li>🔄 <strong>Automatic Updates:</strong> Views update automatically</li>
+                                <li>🎯 <strong>Type Safety:</strong> Full TypeScript support</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="signals">
+                            <img src="angular_signals.jpg" alt="Angular Signals Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Routing -->
+                <section id="routing" class="content-section">
+                    <div class="section-header">
+                        <h2>🗺️ Routing</h2>
+                        <span class="section-badge">Navigation</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular Router enables navigation between different views in your application, supporting lazy loading, guards, and nested routes.</p>
+                            <h3>Routing Features:</h3>
+                            <ul>
+                                <li>🚀 <strong>Lazy Loading:</strong> Load modules on demand</li>
+                                <li>🛡️ <strong>Route Guards:</strong> Control access to routes</li>
+                                <li>🎯 <strong>Route Parameters:</strong> Pass data between routes</li>
+                                <li>🌳 <strong>Child Routes:</strong> Create nested navigation</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="routing">
+                            <img src="angular_routing.jpg" alt="Angular Routing Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Forms -->
+                <section id="forms" class="content-section">
+                    <div class="section-header">
+                        <h2>📋 Forms</h2>
+                        <span class="section-badge">User Input</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular provides two approaches to handling user input through forms: reactive forms and template-driven forms.</p>
+                            <h3>Form Features:</h3>
+                            <ul>
+                                <li>✅ <strong>Validation:</strong> Built-in and custom validators</li>
+                                <li>🔄 <strong>Reactive Forms:</strong> Model-driven approach</li>
+                                <li>📝 <strong>Template-Driven:</strong> Directive-based forms</li>
+                                <li>🎨 <strong>Dynamic Forms:</strong> Build forms programmatically</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="forms">
+                            <img src="angular_forms.jpg" alt="Angular Forms Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HTTP -->
+                <section id="http" class="content-section">
+                    <div class="section-header">
+                        <h2>🌐 HTTP</h2>
+                        <span class="section-badge">API Communication</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular HTTP client provides a powerful way to communicate with backend services over HTTP, with support for observables and interceptors.</p>
+                            <h3>HTTP Features:</h3>
+                            <ul>
+                                <li>🔄 <strong>Observables:</strong> Reactive HTTP requests</li>
+                                <li>🔌 <strong>Interceptors:</strong> Modify requests/responses</li>
+                                <li>⚙️ <strong>Type Safety:</strong> Typed HTTP responses</li>
+                                <li>🔒 <strong>Security:</strong> Built-in XSRF protection</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="http">
+                            <img src="angular_http.jpg" alt="Angular HTTP Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Testing -->
+                <section id="testing" class="content-section">
+                    <div class="section-header">
+                        <h2>🧪 Testing</h2>
+                        <span class="section-badge">Quality Assurance</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular provides robust testing utilities and integrations with testing frameworks like Jasmine and Karma for comprehensive test coverage.</p>
+                            <h3>Testing Types:</h3>
+                            <ul>
+                                <li>🔬 <strong>Unit Tests:</strong> Test individual components/services</li>
+                                <li>🔗 <strong>Integration Tests:</strong> Test component interactions</li>
+                                <li>🌐 <strong>E2E Tests:</strong> Test complete user workflows</li>
+                                <li>📊 <strong>Code Coverage:</strong> Measure test effectiveness</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="testing">
+                            <img src="angular_testing.jpg" alt="Angular Testing Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Animations -->
+                <section id="animations" class="content-section">
+                    <div class="section-header">
+                        <h2>🎬 Animations</h2>
+                        <span class="section-badge">Visual Effects</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular's animation system provides powerful tools for creating smooth, engaging animations that enhance user experience.</p>
+                            <h3>Animation Features:</h3>
+                            <ul>
+                                <li>✨ <strong>State-Based:</strong> Define animation states</li>
+                                <li>🎭 <strong>Transitions:</strong> Smooth state changes</li>
+                                <li>⏱️ <strong>Timing:</strong> Control animation duration</li>
+                                <li>🎨 <strong>Keyframes:</strong> Complex animation sequences</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="animations">
+                            <img src="angular_animations.jpg" alt="Angular Animations Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Accessibility -->
+                <section id="accessibility" class="content-section">
+                    <div class="section-header">
+                        <h2>♿ Accessibility</h2>
+                        <span class="section-badge">Inclusive Design</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Building accessible Angular applications ensures that all users, including those with disabilities, can effectively use your application.</p>
+                            <h3>Accessibility Best Practices:</h3>
+                            <ul>
+                                <li>🎯 <strong>ARIA Labels:</strong> Provide semantic information</li>
+                                <li>⌨️ <strong>Keyboard Navigation:</strong> Full keyboard support</li>
+                                <li>🎨 <strong>Color Contrast:</strong> Readable text and UI</li>
+                                <li>📱 <strong>Screen Readers:</strong> Compatible with assistive tech</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="accessibility">
+                            <img src="angular_accessibility.jpg" alt="Angular Accessibility Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Performance Optimization -->
+                <section id="performance-optimization" class="content-section">
+                    <div class="section-header">
+                        <h2>⚡ Performance Optimization</h2>
+                        <span class="section-badge">Speed & Efficiency</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Optimize your Angular applications for better performance through lazy loading, change detection strategies, and efficient coding practices.</p>
+                            <h3>Optimization Techniques:</h3>
+                            <ul>
+                                <li>🚀 <strong>Lazy Loading:</strong> Load code on demand</li>
+                                <li>🔄 <strong>OnPush Strategy:</strong> Optimize change detection</li>
+                                <li>📦 <strong>Tree Shaking:</strong> Remove unused code</li>
+                                <li>💾 <strong>AOT Compilation:</strong> Faster application startup</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="performance-optimization">
+                            <img src="angular_performance_optimization.jpg" alt="Angular Performance Optimization Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Security -->
+                <section id="security" class="content-section">
+                    <div class="section-header">
+                        <h2>🔒 Security</h2>
+                        <span class="section-badge">Protection</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular has built-in protections against common web vulnerabilities. Understanding these security features is crucial for building secure applications.</p>
+                            <h3>Security Features:</h3>
+                            <ul>
+                                <li>🛡️ <strong>XSS Prevention:</strong> Automatic sanitization</li>
+                                <li>🔐 <strong>CSRF Protection:</strong> Token-based security</li>
+                                <li>🚫 <strong>Content Security:</strong> CSP integration</li>
+                                <li>✅ <strong>Trust Management:</strong> Safe HTML rendering</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="security">
+                            <img src="angular_security.jpg" alt="Angular Security Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Server-Side Rendering -->
+                <section id="server-side-rendering" class="content-section">
+                    <div class="section-header">
+                        <h2>🖥️ Server-Side Rendering</h2>
+                        <span class="section-badge">SSR</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular Universal enables server-side rendering (SSR) for improved initial load time, SEO, and social media sharing.</p>
+                            <h3>SSR Benefits:</h3>
+                            <ul>
+                                <li>⚡ <strong>Faster First Paint:</strong> Quicker initial rendering</li>
+                                <li>🔍 <strong>Better SEO:</strong> Search engine friendly</li>
+                                <li>📱 <strong>Social Sharing:</strong> Preview content properly</li>
+                                <li>🌐 <strong>Universal Code:</strong> Shared client/server code</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="server-side-rendering">
+                            <img src="angular_server_side_rendering.jpg" alt="Angular Server-Side Rendering Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CLI -->
+                <section id="cli" class="content-section">
+                    <div class="section-header">
+                        <h2>⌨️ Angular CLI</h2>
+                        <span class="section-badge">Command Line</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular CLI is a powerful command-line tool that helps you initialize, develop, scaffold, and maintain Angular applications.</p>
+                            <h3>CLI Features:</h3>
+                            <ul>
+                                <li>🎯 <strong>Project Generation:</strong> Create new projects quickly</li>
+                                <li>🧩 <strong>Code Scaffolding:</strong> Generate components, services</li>
+                                <li>🔧 <strong>Build Tools:</strong> Webpack configuration managed</li>
+                                <li>🧪 <strong>Testing Support:</strong> Run tests with ease</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="cli">
+                            <img src="angular_cli.jpg" alt="Angular CLI Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Dev Tools -->
+                <section id="dev-tools" class="content-section">
+                    <div class="section-header">
+                        <h2>🛠️ Dev Tools</h2>
+                        <span class="section-badge">Debugging</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular DevTools is a browser extension that provides debugging and profiling capabilities for Angular applications.</p>
+                            <h3>DevTools Features:</h3>
+                            <ul>
+                                <li>🔍 <strong>Component Explorer:</strong> Inspect component tree</li>
+                                <li>📊 <strong>Profiler:</strong> Analyze performance bottlenecks</li>
+                                <li>🎯 <strong>State Inspection:</strong> View component state</li>
+                                <li>⚡ <strong>Change Detection:</strong> Debug update cycles</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="dev-tools">
+                            <img src="angular_dev_tools.jpg" alt="Angular Dev Tools Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Language Service -->
+                <section id="language-service" class="content-section">
+                    <div class="section-header">
+                        <h2>💬 Language Service</h2>
+                        <span class="section-badge">IDE Support</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular Language Service provides code intelligence in templates, including autocompletion, error checking, and navigation.</p>
+                            <h3>Language Service Features:</h3>
+                            <ul>
+                                <li>💡 <strong>Autocomplete:</strong> Intelligent code suggestions</li>
+                                <li>❌ <strong>Error Detection:</strong> Real-time error checking</li>
+                                <li>🎯 <strong>Go to Definition:</strong> Navigate to declarations</li>
+                                <li>📚 <strong>Documentation:</strong> Hover for quick info</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="language-service">
+                            <img src="angular_language_service.jpg" alt="Angular Language Service Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Style Guide -->
+                <section id="style-guide" class="content-section">
+                    <div class="section-header">
+                        <h2>📐 Style Guide</h2>
+                        <span class="section-badge">Best Practices</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular Style Guide provides opinionated conventions and best practices for building maintainable Angular applications.</p>
+                            <h3>Style Guide Topics:</h3>
+                            <ul>
+                                <li>📝 <strong>Naming Conventions:</strong> Consistent file naming</li>
+                                <li>📁 <strong>File Structure:</strong> Organized project layout</li>
+                                <li>🎯 <strong>Single Responsibility:</strong> One concept per file</li>
+                                <li>✨ <strong>Code Quality:</strong> Clean, maintainable code</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="style-guide">
+                            <img src="angular_style_guide.jpg" alt="Angular Style Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Libraries -->
+                <section id="libraries" class="content-section">
+                    <div class="section-header">
+                        <h2>📦 Libraries</h2>
+                        <span class="section-badge">Reusable Code</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Create reusable Angular libraries to share code across multiple applications or publish to npm for the community.</p>
+                            <h3>Library Benefits:</h3>
+                            <ul>
+                                <li>♻️ <strong>Code Reuse:</strong> Share across projects</li>
+                                <li>📦 <strong>Distribution:</strong> Publish to npm</li>
+                                <li>🔧 <strong>Modularity:</strong> Encapsulated functionality</li>
+                                <li>🎯 <strong>Maintenance:</strong> Centralized updates</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="libraries">
+                            <img src="angular_libraries.jpg" alt="Angular Libraries Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Drag & Drop -->
+                <section id="drag-drop" class="content-section">
+                    <div class="section-header">
+                        <h2>🖱️ Drag & Drop</h2>
+                        <span class="section-badge">Interactions</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>The Angular CDK provides drag-and-drop functionality for creating interactive and intuitive user interfaces.</p>
+                            <h3>Drag & Drop Features:</h3>
+                            <ul>
+                                <li>🎯 <strong>Sortable Lists:</strong> Reorder items easily</li>
+                                <li>📋 <strong>Transfer Lists:</strong> Move between containers</li>
+                                <li>🎨 <strong>Custom Previews:</strong> Styled drag previews</li>
+                                <li>📱 <strong>Touch Support:</strong> Mobile-friendly dragging</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="drag-drop">
+                            <img src="angular_drag_drop.jpg" alt="Angular Drag & Drop Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Internationalization -->
+                <section id="internalization" class="content-section">
+                    <div class="section-header">
+                        <h2>🌍 Internationalization (i18n)</h2>
+                        <span class="section-badge">Localization</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Angular's internationalization features help you make your applications available in multiple languages and locales.</p>
+                            <h3>i18n Features:</h3>
+                            <ul>
+                                <li>🌐 <strong>Translation:</strong> Multiple language support</li>
+                                <li>📅 <strong>Locale Data:</strong> Date, number, currency formatting</li>
+                                <li>🔄 <strong>Runtime i18n:</strong> Dynamic language switching</li>
+                                <li>📝 <strong>Message IDs:</strong> Stable translation keys</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="internalization">
+                            <img src="angular_internalization.jpg" alt="Angular Internationalization Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AI -->
+                <section id="ai" class="content-section">
+                    <div class="section-header">
+                        <h2>🤖 AI Integration</h2>
+                        <span class="section-badge">Modern Features</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Integrate AI capabilities into your Angular applications to create intelligent, modern user experiences.</p>
+                            <h3>AI Integration Options:</h3>
+                            <ul>
+                                <li>🧠 <strong>ML Models:</strong> TensorFlow.js integration</li>
+                                <li>💬 <strong>Chatbots:</strong> Conversational interfaces</li>
+                                <li>🎯 <strong>Recommendations:</strong> Personalized content</li>
+                                <li>🔍 <strong>Smart Search:</strong> AI-powered search features</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="ai">
+                            <img src="angular_ai.jpg" alt="Angular AI Integration Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Keeping Up to Date -->
+                <section id="keeping-upto-date" class="content-section">
+                    <div class="section-header">
+                        <h2>🔄 Keeping Up to Date</h2>
+                        <span class="section-badge">Maintenance</span>
+                    </div>
+                    <div class="section-content">
+                        <div class="text-content">
+                            <p>Stay current with the latest Angular features, security updates, and best practices to maintain healthy, modern applications.</p>
+                            <h3>Update Strategies:</h3>
+                            <ul>
+                                <li>📋 <strong>Update Guide:</strong> Step-by-step migration</li>
+                                <li>🔄 <strong>ng update:</strong> Automated update tool</li>
+                                <li>📰 <strong>Release Notes:</strong> Stay informed</li>
+                                <li>🛡️ <strong>Security Patches:</strong> Critical updates</li>
+                            </ul>
+                        </div>
+                        <div class="image-container" data-topic="keeping-upto-date">
+                            <img src="angular_keeping_upto_date.jpg" alt="Angular Updates Guide" class="protected-image">
+                            <div class="image-overlay">🔒 Protected Content</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🅰️ Angular Visual Storybook | Learn Angular Through Beautiful Infographics</p>
+            <p>Content sourced from <a href="https://angular.dev" target="_blank" rel="noopener">angular.dev</a> | Made with ❤️ for the Angular community</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
